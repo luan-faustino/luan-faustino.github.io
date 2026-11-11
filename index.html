@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Luan Faustino · Cybersecurity</title>
+<meta name="description" content="Luan Faustino — Cybersecurity Analyst (SecOps) focused on Microsoft Defender XDR and security automation with Python. Based in Brazil, open to remote work.">
+<meta property="og:title" content="Luan Faustino · Cybersecurity">
+<meta property="og:description" content="Security Operations · Microsoft Defender XDR · Security Automation (Python & APIs)">
+<meta property="og:image" content="assets/luan.jpg">
+<link rel="icon" href="assets/luan.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-inner">
+    <a class="brand" href="#">luan<span>.</span>faustino</a>
+    <nav>
+      <a href="#about" data-i18n="nav_about">About</a>
+      <a href="#work" data-i18n="nav_work">Work</a>
+      <a href="#experience" data-i18n="nav_exp">Experience</a>
+      <a href="#skills" data-i18n="nav_skills">Skills</a>
+      <button id="lang" type="button" aria-label="Switch language">PT</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero wrap">
+  <img class="avatar" src="assets/luan.jpg" alt="Luan Faustino" width="168" height="168">
+  <div>
+    <p class="mono kicker" data-i18n="kicker">// security operations · automation</p>
+    <h1>Luan Faustino</h1>
+    <p class="lead" data-i18n="lead">Cybersecurity Analyst focused on Microsoft Defender XDR and on building Python automations that make security operations faster, consistent and auditable.</p>
+    <p class="meta"><span data-i18n="loc">Blumenau, Brazil · UTC-3</span> · <span class="pill" data-i18n="remote">Open to remote</span></p>
+    <div class="cta">
+      <a class="btn" href="https://www.linkedin.com/in/luan-vitor-faustino/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn ghost" href="https://github.com/FJK-20" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="wrap block">
+  <h2 data-i18n="about_h">About</h2>
+  <p data-i18n="about_p1">I work in Security Operations (SecOps) at Cooperativa Central Ailos, a Brazilian financial cooperative. My day-to-day combines administering endpoint protection with writing the code that ties security tools together.</p>
+  <p data-i18n="about_p2">I started in technology in 2022 and went through software development, IT support and infrastructure before moving into Information Security in 2024. That path gives me an end-to-end view of the environment, from servers and networks to detection and incident response.</p>
+  <p data-i18n="about_p3">I treat my own automations with the same security rigor I expect from the systems I protect: least privilege, secrets in a vault, audit logs and human approval for any change.</p>
+</section>
+
+<section id="work" class="wrap block">
+  <h2 data-i18n="work_h">Selected work</h2>
+  <div class="grid">
+    <article class="card">
+      <p class="mono tag">python · rest apis</p>
+      <h3 data-i18n="w1_h">Security tooling integrations</h3>
+      <p data-i18n="w1_p">15+ integrations with the APIs of security and IT tools, so cross-tool questions are answered from a single place instead of console by console. Read-only by design, vault-stored credentials and an audit trail for every query.</p>
+      <p class="impact" data-i18n="w1_i">One entry point for investigations</p>
+    </article>
+    <article class="card">
+      <p class="mono tag">vulnerability management</p>
+      <h3 data-i18n="w2_h">Critical vulnerability workflow</h3>
+      <p data-i18n="w2_p">Automation that groups critical findings by remediation, removes duplicates, identifies the owning team and opens the work items with affected hosts and recommendation, then tracks them to closure.</p>
+      <p class="impact" data-i18n="w2_i">From days of spreadsheets to minutes</p>
+    </article>
+    <article class="card">
+      <p class="mono tag">power bi · metrics</p>
+      <h3 data-i18n="w3_h">Automated security metrics</h3>
+      <p data-i18n="w3_p">Monthly security indicators collected straight from the tools, with Power BI reports generated from code and a single definition per metric. Only aggregated data reaches management.</p>
+      <p class="impact" data-i18n="w3_i">Same calculation every month</p>
+    </article>
+    <article class="card">
+      <p class="mono tag">pki · certificates</p>
+      <h3 data-i18n="w4_h">Zero-downtime certificate renewal</h3>
+      <p data-i18n="w4_p">Consolidated certificate inventory and a proof of concept for automated renewal on web servers without downtime, validated under load.</p>
+      <p class="impact" data-i18n="w4_i">No downtime during renewal</p>
+    </article>
+    <article class="card">
+      <p class="mono tag">endpoint hardening</p>
+      <h3 data-i18n="w5_h">No local admin, same outcome</h3>
+      <p data-i18n="w5_p">Deployment script that installs a third-party application without granting local administrator rights to end users, reducing the attack surface on workstations.</p>
+      <p class="impact" data-i18n="w5_i">Least privilege on endpoints</p>
+    </article>
+    <article class="card">
+      <p class="mono tag">siem · detection</p>
+      <h3 data-i18n="w6_h">SIEM detection and response</h3>
+      <p data-i18n="w6_p">Wazuh monitoring, detection and correlation rules, FortiGate and WAF operations, and n8n automations that reduced manual work in day-to-day security operations.</p>
+      <p class="impact" data-i18n="w6_i">Faster triage, fewer manual steps</p>
+    </article>
+  </div>
+  <p class="note" data-i18n="work_note">Work done for employers is described without internal data. Public lab projects are being published on GitHub.</p>
+</section>
+
+<section id="experience" class="wrap block">
+  <h2 data-i18n="exp_h">Experience</h2>
+  <ol class="timeline">
+    <li><span class="when" data-i18n="e1_d">Mar 2026 — now</span><h3>Cybersecurity Analyst · Cooperativa Central Ailos</h3><p data-i18n="e1_p">Microsoft Defender XDR administration, EDR/XDR alert triage, certificate lifecycle and security automation in Python.</p></li>
+    <li><span class="when" data-i18n="e2_d">Sep 2025 — Feb 2026</span><h3 data-i18n="e2_t">Junior Information Security Analyst · Altenburg</h3><p data-i18n="e2_p">Wazuh SIEM, FortiGate, vulnerability management and hardening (NIST, ISO/IEC 27001), n8n automation.</p></li>
+    <li><span class="when" data-i18n="e3_d">Mar 2024 — Aug 2025</span><h3 data-i18n="e3_t">Information Security Assistant · Altenburg</h3><p data-i18n="e3_p">SIEM monitoring, WAF management, OWASP Top 10 analysis and access control.</p></li>
+    <li><span class="when" data-i18n="e4_d">Jan 2023 — Mar 2024</span><h3 data-i18n="e4_t">IT Infrastructure Assistant · Datainfo, Altenburg</h3><p data-i18n="e4_p">Windows Server, Linux, Active Directory, Microsoft 365, Hyper-V, VMware, Docker, SQL Server/Oracle, AWS and on-site IT rollout of new stores.</p></li>
+    <li><span class="when" data-i18n="e5_d">Jun 2022 — Jan 2023</span><h3 data-i18n="e5_t">Development Assistant · Datainfo</h3><p data-i18n="e5_p">Development, testing and documentation of internal applications.</p></li>
+  </ol>
+</section>
+
+<section id="skills" class="wrap block">
+  <h2 data-i18n="skills_h">Skills</h2>
+  <div class="skills">
+    <div><h3 data-i18n="s1">Security operations</h3><p>Microsoft Defender XDR · EDR/XDR · Wazuh SIEM · Incident response · Vulnerability management · OWASP Top 10</p></div>
+    <div><h3 data-i18n="s2">Automation</h3><p>Python · REST APIs · Power BI · n8n · PowerShell · Bash</p></div>
+    <div><h3 data-i18n="s3">Network & infrastructure</h3><p>FortiGate · WAF · Windows Server · Linux · Active Directory · VMware · Hyper-V · Docker · AWS</p></div>
+    <div><h3 data-i18n="s4">Currently learning</h3><p>Microsoft Sentinel & KQL · SC-200 · Detection engineering (MITRE ATT&amp;CK) · Safe use of AI in security operations</p></div>
+  </div>
+</section>
+
+<section class="wrap block">
+  <h2 data-i18n="edu_h">Education & languages</h2>
+  <p data-i18n="edu_p">Technologist Degree in Cyber Defense — Estácio (in progress, since 2025). Portuguese (native), English (basic, improving).</p>
+</section>
+</main>
+
+<footer class="wrap foot">
+  <p>© 2026 Luan Faustino · <a href="https://www.linkedin.com/in/luan-vitor-faustino/" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://github.com/FJK-20" target="_blank" rel="noopener">GitHub</a></p>
+</footer>
+<script src="i18n.js"></script>
+</body>
+</html>
